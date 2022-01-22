@@ -1,0 +1,129 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Interop.InteropExtensionLib.1.0, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class InteropExtensionLib.InteropDictionaryClass: AutoLayout, AnsiClass, Class, Public, Import
+  :System.__ComObject
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Interfaces:
+    InteropExtensionLib.IInteropDictionary
+    InteropExtensionLib.InteropDictionary
+  Properties:
+    Int32 Count 'get ' : 
+  Methods:
+    get_Count(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    TryGetValue(Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Add(Object(HasFieldMarshal), Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ContainsKey(Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Remove(Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetValue(Object(HasFieldMarshal), Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetKeyAt(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetValueAt(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AddRange(InteropDictionary(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Interface InteropExtensionLib.InteropDictionary: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Interfaces:
+    InteropExtensionLib.IInteropDictionary
+Interface InteropExtensionLib.IInteropDictionary: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Properties:
+    Int32 Count 'get ' : 
+  Methods:
+    get_Count(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    TryGetValue(Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Add(Object(HasFieldMarshal), Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ContainsKey(Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Remove(Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetValue(Object(HasFieldMarshal), Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetKeyAt(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetValueAt(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AddRange(InteropDictionary(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class InteropExtensionLib.InteropHelperClass: AutoLayout, AnsiClass, Class, Public, Import
+  :System.__ComObject
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Interfaces:
+    InteropExtensionLib.IInteropHelper
+    InteropExtensionLib.InteropHelper
+  Methods:
+    InvokeEx(Object(HasFieldMarshal), Object(HasFieldMarshal), DispatchFlag, Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateArray(Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateDictionary(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateVariant(Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateStream(Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AttachEvent(Object(HasFieldMarshal), Object(HasFieldMarshal), Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DetachEvent(Object(HasFieldMarshal), Object(HasFieldMarshal), Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetEnumerator(Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetDefaultInterfaceIID(Object(HasFieldMarshal), IInteropArray(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateEventDispatcher(Object(HasFieldMarshal), Object(HasFieldMarshal), Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ForceCleanupEventSink(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Interface InteropExtensionLib.InteropHelper: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Interfaces:
+    InteropExtensionLib.IInteropHelper
+Interface InteropExtensionLib.IInteropHelper: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Methods:
+    InvokeEx(Object(HasFieldMarshal), Object(HasFieldMarshal), DispatchFlag, Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateArray(Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateDictionary(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateVariant(Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateStream(Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AttachEvent(Object(HasFieldMarshal), Object(HasFieldMarshal), Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DetachEvent(Object(HasFieldMarshal), Object(HasFieldMarshal), Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetEnumerator(Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetDefaultInterfaceIID(Object(HasFieldMarshal), IInteropArray(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateEventDispatcher(Object(HasFieldMarshal), Object(HasFieldMarshal), Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ForceCleanupEventSink(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Struct InteropExtensionLib.DispatchFlag: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    InteropExtensionLib.DispatchFlag DispatchFlagMethod = 1 : Public, Static, Literal, HasDefault
+    InteropExtensionLib.DispatchFlag DispatchFlagPropertyGet = 2 : Public, Static, Literal, HasDefault
+    InteropExtensionLib.DispatchFlag DispatchFlagPropertySet = 4 : Public, Static, Literal, HasDefault
+    InteropExtensionLib.DispatchFlag DispatchFlagPropertyPutRef = 8 : Public, Static, Literal, HasDefault
+Interface InteropExtensionLib.IInteropArray: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Properties:
+    Int32 Count 'get set' : 
+    Int32 Type 'get ' : 
+    System.String Xml 'get ' : 
+  Methods:
+    get_Count(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Count(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    GetValue(UInt32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetValue(Int32, Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AddValue(Object(HasFieldMarshal), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_Type(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Xml(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Interface InteropExtensionLib.IInteropVariant: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Properties:
+    Int32 Type 'get ' : 
+    InteropExtensionLib.ExtendedType ExtendedType 'get ' : 
+    System.Object value 'get ' : 
+    System.String Xml 'get ' : 
+  Methods:
+    get_Type(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ExtendedType(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_value(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    GetValue(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_Xml(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Struct InteropExtensionLib.ExtendedType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    InteropExtensionLib.ExtendedType typeInteropNone = 0 : Public, Static, Literal, HasDefault
+    InteropExtensionLib.ExtendedType typeInteropVariant = 1 : Public, Static, Literal, HasDefault
+    InteropExtensionLib.ExtendedType typeInteropEnumerator = 2 : Public, Static, Literal, HasDefault
+    InteropExtensionLib.ExtendedType typeInteropStream = 3 : Public, Static, Literal, HasDefault
+    InteropExtensionLib.ExtendedType typeInteropArray = 4 : Public, Static, Literal, HasDefault
+    InteropExtensionLib.ExtendedType typeInteropNull = 255 : Public, Static, Literal, HasDefault
+Interface InteropExtensionLib.IInteropStream: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Methods:
+    GetSize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Seek(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Read(UInt32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Write(String(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface InteropExtensionLib.IEnumeratorHelper: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Properties:
+    System.Object Current 'get ' : 
+  Methods:
+    get_Current(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    MoveNext(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Reset(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract

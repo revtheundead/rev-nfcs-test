@@ -1,0 +1,110 @@
+  NFCSTestV2.Introduction.resources - Embedded, ContainedInManifestFile, 
+  NFCSTestV2.IntroductionContinuation.resources - Embedded, ContainedInManifestFile, 
+  NFCSTestV2.Login.resources - Embedded, ContainedInManifestFile, 
+  NFCSTestV2.ResultViewLong.resources - Embedded, ContainedInManifestFile, 
+  NFCSTestV2.ResultViewShort.resources - Embedded, ContainedInManifestFile, 
+  NFCSTestV2.TestSelection.resources - Embedded, ContainedInManifestFile, 
+  NFCSTestV2.TestViewLong.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly NFCSTestV2, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class WinformNFCSTestParticipant.NFCSParticipant: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(WinformNFCSTestParticipant.NFCSParticipant*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getParticipantId(): PrivateScope, Public, HideBySig
+    getParticipantName(): PrivateScope, Public, HideBySig
+    getParticipantScores(Int32[]* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    getParticipantOverallScore(): PrivateScope, Public, HideBySig
+    setParticipantOverallScore(Int32 IsConst): PrivateScope, Public, HideBySig
+    setParticipantScores(Int32* IsConst IsConst): PrivateScope, Public, HideBySig
+    exportUserData(): PrivateScope, Public, HideBySig
+Class WinformNFCSTestQuestion.NFCSQuestion: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(WinformNFCSTestQuestion.NFCSQuestion*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getQuestionText(): PrivateScope, Public, HideBySig
+    getQuestionType(): PrivateScope, Public, HideBySig
+    getQuestionAnswer(): PrivateScope, Public, HideBySig
+    isReversed(): PrivateScope, Public, HideBySig
+    setQuestionText(String): PrivateScope, Public, HideBySig
+    setQuestionType(SByte IsSignUnspecifiedByte): PrivateScope, Public, HideBySig
+    setQuestionAnswer(Int32): PrivateScope, Public, HideBySig
+    setReversed(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+Class WinformNFCSTestLong.NFCSLong: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(WinformNFCSTestLong.NFCSLong*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    op_Subscript(Int32): PrivateScope, Public, HideBySig, SpecialName
+    evaluateParticipantScores(NFCSParticipant* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+Class CppCLRWinformsProjektTestResultViewLong.ResultViewLong: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    WinformNFCSTestLong.NFCSLong nfcsTest : Public
+    WinformNFCSTestParticipant.NFCSParticipant participant : Public
+  Methods:
+    getParticipantInfo(NFCSParticipant* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    generateResults(NFCSLong* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+Class CppCLRWinformsProjektTestViewLong.TestViewLong: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    WinformNFCSTestLong.NFCSLong nfcsTest : Public
+    WinformNFCSTestParticipant.NFCSParticipant participant : Public
+  Methods:
+    getParticipantInfo(NFCSParticipant* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+Class WinformNFCSTestShort.NFCSShort: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(WinformNFCSTestShort.NFCSShort*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    op_Subscript(Int32): PrivateScope, Public, HideBySig, SpecialName
+    evaluateParticipantScores(NFCSParticipant* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+Class CppCLRWinformsProjektTestResultViewShort.ResultViewShort: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    WinformNFCSTestShort.NFCSShort nfcsTest : Public
+    WinformNFCSTestParticipant.NFCSParticipant participant : Public
+  Methods:
+    getParticipantInfo(NFCSParticipant* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    generateResults(NFCSShort* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+Class CppCLRWinformsProjektTestViewShort.TestViewShort: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    WinformNFCSTestShort.NFCSShort nfcsTest : Public
+    WinformNFCSTestParticipant.NFCSParticipant participant : Public
+  Methods:
+    getParticipantInfo(NFCSParticipant* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+Class CppCLRWinformsProjektTestSelection.TestSelection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    WinformNFCSTestParticipant.NFCSParticipant participant : Public
+  Methods:
+    getParticipantInfo(NFCSParticipant* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+Class CppCLRWinformsProjektTestLogin.TestLogin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CppCLRWinformsProjektTestIntroductionContinuation.IntroductionContinuation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CppCLRWinformsProjektTestIntroduction.Introduction: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

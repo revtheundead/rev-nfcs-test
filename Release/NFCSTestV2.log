@@ -1,0 +1,130 @@
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  CppCLR_WinformsProjekt.cpp
+D:\NFCSTestV2\CppCLR_WinformsProjekt.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\Introduction.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\IntroductionContinuation.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\Login.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\NFCSParticipant.h(24,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\NFCSTestV2\Login.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestSelection.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestSelection.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewLong.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewLong.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewLong.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewLong.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewLong.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewLong.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestSelection.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewShort.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewShort.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewShort.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewShort.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewShort.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewShort.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Form1.cpp
+  Introduction.cpp
+D:\NFCSTestV2\Introduction.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\IntroductionContinuation.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\Login.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\NFCSParticipant.h(24,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\NFCSTestV2\Login.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestSelection.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestSelection.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewLong.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewLong.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewLong.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewLong.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewLong.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewLong.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestSelection.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewShort.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewShort.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewShort.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewShort.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewShort.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewShort.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  IntroductionContinuation.cpp
+D:\NFCSTestV2\IntroductionContinuation.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\Login.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\NFCSParticipant.h(24,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\NFCSTestV2\Login.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestSelection.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestSelection.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewLong.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewLong.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewLong.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewLong.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewLong.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewLong.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestSelection.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewShort.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewShort.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewShort.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewShort.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewShort.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewShort.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Login.cpp
+D:\NFCSTestV2\Login.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\NFCSParticipant.h(24,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\NFCSTestV2\Login.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestSelection.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestSelection.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewLong.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewLong.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewLong.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewLong.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewLong.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewLong.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestSelection.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewShort.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewShort.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewShort.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewShort.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewShort.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewShort.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  NFCSLong.cpp
+D:\NFCSTestV2\NFCSParticipant.h(24,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  NFCSParticipant.cpp
+D:\NFCSTestV2\NFCSParticipant.h(24,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  NFCSQuestion.cpp
+  NFCSShort.cpp
+D:\NFCSTestV2\NFCSParticipant.h(24,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  ResultViewLong.cpp
+D:\NFCSTestV2\ResultViewLong.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewLong.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\NFCSParticipant.h(24,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\NFCSTestV2\ResultViewLong.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  ResultViewShort.cpp
+D:\NFCSTestV2\ResultViewShort.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewShort.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\NFCSParticipant.h(24,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\NFCSTestV2\ResultViewShort.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  TestSelection.cpp
+D:\NFCSTestV2\TestSelection.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\NFCSParticipant.h(24,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\NFCSTestV2\TestSelection.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewLong.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewLong.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewLong.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewLong.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewLong.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewLong.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestSelection.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewShort.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewShort.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewShort.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewShort.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewShort.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewShort.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  TestViewShort.cpp
+D:\NFCSTestV2\TestViewShort.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\NFCSParticipant.h(24,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\NFCSTestV2\TestViewShort.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\TestViewShort.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewShort.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewShort.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\NFCSTestV2\ResultViewShort.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  NFCSTestV2.vcxproj -> D:\NFCSTestV2\Release\NFCSTestV2.exe

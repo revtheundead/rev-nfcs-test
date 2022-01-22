@@ -1,0 +1,11 @@
+D:\NFCSTestV2\Release\NFCSTestV2.Introduction.resources
+D:\NFCSTestV2\Release\NFCSTestV2.IntroductionContinuation.resources
+D:\NFCSTestV2\Release\NFCSTestV2.Login.resources
+D:\NFCSTestV2\Release\NFCSTestV2.ResultViewLong.resources
+D:\NFCSTestV2\Release\NFCSTestV2.ResultViewShort.resources
+D:\NFCSTestV2\Release\NFCSTestV2.TestSelection.resources
+D:\NFCSTestV2\Release\NFCSTestV2.TestViewLong.resources
+D:\NFCSTestV2\Release\NFCSTestV2.vcxproj.GenerateResource.cache
+D:\NFCSTestV2\Release\NFCSTestV2.vcxproj.CopyComplete
+D:\NFCSTestV2\Release\NFCSTestV2.exe
+D:\NFCSTestV2\Release\Microsoft.Office.Interop.Excel.dll
